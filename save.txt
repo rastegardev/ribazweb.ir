@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <!--? <MEta tags> begin ============================-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="رضا رستگار" />
+    <meta name="keywords" content="طراحی سایت مشهد، طراحی سایت در مشهد">
+    <meta name="description"
+        content="ما انواع خدمات طراحی سایت فروشگاهی، شرکتی، شخصی و... با سیستم مدیریت محتوای وردپرس را با تیمی خلاق به صورت حرفه ای در مشهد ارائه می‌دهیم">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="رضا رستگار" />
+    <meta property="og:description"
+        content="ما انواع خدمات طراحی سایت فروشگاهی، شرکتی، شخصی و... با سیستم مدیریت محتوای وردپرس را با تیمی خلاق به صورت حرفه ای در مشهد ارائه می‌دهیم">
+    <meta property="og:locale" content="fa-IR" />
+    <meta name="theme-color" content="#ff9900" />
+    <!-- Document Title -->
+    <title>ریباز وب | طراحی سایت با وردپرس + پشتیبانی رایگان</title>
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.png">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--? <MEta tags> close ============================-->
+
+    <!--? <Preload Fonts> ============================-->
+    <link rel="preload" href="./assets/fonts/Anjoman-Light.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/Anjoman-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="./assets/fonts/Anjoman-Heavy.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!--? <Custom fonts> ============================-->
+    <link rel="stylesheet" as="font" href="./assets/fonts/font-family.css">
+
+    <!--? <Fontawesome Stylesheets> ============================-->
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+    <!--? <Aos Stylesheets> ============================-->
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css">
+
+    <!--? <Bootstrap Stylesheets> ============================-->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
+
+    <!--? <Custom fonts> ============================-->
+    <link rel="stylesheet" href="./node_modules/sweetalert2/dist/sweetalert2.min.css">
+
+    <!--? <Custom Stylesheets> ============================-->
+    <link rel="stylesheet" href="./assets/css/custom-theme.css">
+</head>
+
+<body class="body">
+
+    <!--? <Fontawesome Stylesheets> begin ============================-->
+    <button class="btn btn-warning img-animated" id="topbtn" onclick="backToTop()" title="Go to top">
+        <i class="fa-solid fa-angles-up"></i>
+    </button>
+    <!--? <Back to top button> close ============================-->
+
+    <!--? <whatsapp support btn> begin ============================-->
+    <div class="whatsapp">
+        <div class="whatsapp-icon shadow">
+            <div>
+                پشتیبانی واتساپ
+                <i class="fa-brands fa-whatsapp ms-2"></i>
+            </div>
+        </div>
+        <form class="whatsapp-form d-none">
+            <div class="whatsapp-close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <h3>نیاز به راهنمایی دارید؟</h3>
+            <p>پیام خود را بنوسید در اسرع وقت به شما پاسخ خواهیم داد</p>
+            <textarea class="whatsapp-input" placeholder="پیام خود را وارد کنید" cols="15" rows="5"></textarea>
+            <button type="submit" class="btn whatsapp-btn">
+                ارسال در واتساپ
+                <i class="fa-solid fa-paper-plane ms-2"></i>
+            </button>
+        </form>
+    </div>
+    <!--? <whatsapp support btn> close ============================-->
+
+    <!--? <progress bar in header> begin ============================-->
+    <div class="progress-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+    <!--? <progress bar in header> close ============================-->
+
+
+    <!-- ===============================================-->
+    <!--? Start of Main Content -->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+
+        <!--? <Header banner> begin ============================-->
+        <div class="top-banner bgGradient p-2 text-white">
+            <div class="top-banner-wrapper container">
+                <div class="pt-2">
+                    <p>
+                        ما کسب و کار شما را در دنیای دیجیتال طراحی میکنیم.
+                        <span class="showclockHeader ms-2"></span>
+                    </p>
+                </div>
+                <div class="top-banner-close p-2 ms-md-3 text-black bg-white rounded-3">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+        </div>
+        <!--? <Header banner> close ============================-->
+
+        <!--? <Header navbar> begin ============================-->
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="./assets/img/logo.png" height="60" alt="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"> </span>
+                </button>
+                <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mt-2 mt-sm-0 me-3 d-flex align-items-center">
+                            <i class="fa-solid fa-house-chimney d-lg-none"></i>
+                            <a class="nav-link m-2 m-lg-0" aria-current="page" href="https://ribazweb.ir">صفحه
+                                اصلی</a>
+                        </li>
+                        <li class="nav-item mt-2 mt-sm-0 me-3 d-flex align-items-center">
+                            <i class="fa-solid fa-wrench d-lg-none"></i>
+                            <a class="nav-link m-2 m-lg-0" aria-current="page" href="" onclick="services()">خدمات ما</a>
+                        </li>
+                        <li class="nav-item mt-2 mt-sm-0 me-3 d-flex align-items-center">
+                            <i class="fa-solid fa-bookmark d-lg-none"></i>
+                            <a class="nav-link m-2 m-lg-0" aria-current="page" href="" onclick="workSample()">نمونه
+                                کارها</a>
+                        </li>
+                        <!-- <li class="nav-item mt-2 mt-sm-0 me-3 d-flex align-items-center">
+                            <i class="fa-solid fa-user d-lg-none"></i>
+                            <a class="nav-link m-2 m-lg-0" aria-current="page" href="" onclick="ourTeam()">اعضای تیم</a>
+                        </li> -->
+                        <li class="nav-item mt-2 mt-sm-0 me-3 d-flex align-items-center">
+                            <i class="fa-solid fa-envelope d-lg-none"></i>
+                            <a class="nav-link m-2 m-lg-0" aria-current="page" href="" onclick="contactUs()">تماس با
+                                ما</a>
+                        </li>
+                        <li
+                            class="nav-item bg-300 rounded-3 mt-2 mt-sm-0 me-3 d-flex align-items-center justify-content-center">
+                            <i class="fa-solid fa-phone-volume ms-2"></i>
+                            <a class="nav-link m-2 m-lg-0" aria-current="page" href="" onclick="counseling()">درخواست
+                                مشاوره
+                                رایگان</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--? <Header navbar> close ============================-->
+
+
+
+        <!-- ============================================-->
+        <!--? <section - Hero> begin ============================-->
+        <section class="pt-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-md-start py-sm-6">
+                        <h1 class="mb-4 fs-7 fs-sm-10 fw-bolder lh-1-6">ریباز وب</h1>
+                        <p class="mb-6 lead text-secondary text-justify">ما انواع خدمات طراحی وبسایت با سیستم مدیریت
+                            محتوای وردپرس
+                            را با تیمی
+                            خلاق به صورت حرفه ای ارائه می‌دهیم. امروزه نیاز به
+                            کسب و کار های اینترنتی و دیجیتال بیشتر از قبل حس می شود و شما هم می توانید برای کسب و کار
+                            خود با داشتن
+                            وبسایت اعتبار
+                            برند و مشتریان خود را افزایش و کسب و کارتان را توسعه دهید</p>
+                        <div class="text-center text-md-start">
+                            <a href="tel:09150716114">
+                                <button class="btn btn-warning me-3 btn-lg">
+                                    ثبت سفارش طراحی سایت
+                                    <i class="fa-solid fa-phone ms-2"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-end"><img class="pt-7 pt-md-0 img-fluid img-animated"
+                            src="assets/img/hero/hero-img.png" alt="" /></div>
+                </div>
+            </div>
+        </section>
+        <!--? <section - Hero> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - Advertising slogans> begin ============================-->
+        <section class="pt-5 pt-md-9 mb-6" id="feature">
+
+            <div class="bg-holder z-index--1 bottom-0 d-lg-block"
+                style="background-image:url(assets/img/category/shape.png);opacity:.5;">
+            </div>
+            <!-- bg-holder -->
+
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="fs-9 fw-bold mb-4 text-center">طراحی سایت حرفه ای <span class="typed-text"></span><span
+                            class="cursor">&nbsp;</span>در مشهد</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 mb-2" data-aos="fade-left" data-aos-duration="1500">
+                        <img class="mb-3 ms-n3" src="assets/img/category/icon2.png" width="100" alt="Feature" />
+                        <h4 class="mb-3">طراحی کاملا واکنش گرا</h4>
+                        <p class="mb-0 fw-medium text-secondary text-justify">در تمامی دسکتاپ، تبلت، موبایل ها وبسایت
+                            شما به طور
+                            مناسب نمایش داده می شود</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-2" data-aos="fade-left" data-aos-duration="1500">
+                        <img class="mb-3 ms-n3" src="assets/img/category/icon1.png" width="100" alt="Feature" />
+                        <h4 class="mb-3">دقت در جزییات</h4>
+                        <p class="mb-0 fw-medium text-secondary text-justify">وبسایت شما نماد برند کسب و کار شما است
+                            تمیز بودن و
+                            درست کار کردن وبسایت به شما اعتبار می بخشد</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-2" data-aos="fade-left" data-aos-duration="1500">
+                        <img class="mb-3 ms-n3" src="assets/img/category/icon3.png" width="100" alt="Feature" />
+                        <h4 class="mb-3">طراحی اختصاصی</h4>
+                        <p class="mb-0 fw-medium text-secondary text-justify">در صورتی که دمو های قالب وردپرسی دقیقا
+                            نیاز شما را
+                            برطرف نمیکرد آن را با توجه به نیاز کسب و کار شما طراحی می کنیم</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-2" data-aos="fade-left" data-aos-duration="1500">
+                        <img class="mb-3 ms-n3" src="assets/img/category/icon4.png" width="100" alt="Feature" />
+                        <h4 class="mb-3">سرعت لودینگ مناسب</h4>
+                        <p class="mb-0 fw-medium text-secondary text-justify">سرعت لودینگ زیاد باعث میشه کاربران و مشتری
+                            های خود را
+                            از دست بدهید برای همین سرعت لودینگ وبسایت از اهمیت بالایی برخوردار است</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a class="btn btn-warning mt-3" href="" onclick="counseling()">
+                        درخواست مشاوره رایگان
+                        <i class="fa-solid fa-headset ms-2"></i>
+                    </a>
+                </div>
+            </div><!-- end of .container-->
+
+        </section>
+        <!--? <section - Advertising slogans> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - services> begin ============================-->
+        <section class="pt-5" id="services">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-title">
+                            <h2 class="mb-4 fs-7 fw-bold text-center">خدماتی که ما ارائه
+                                می‌دهیم</h2>
+                        </div>
+                        <h4 class="fs-1 fw-bold" data-aos="fade-left" data-aos-duration="1500">
+                            <i class="fa-brands fa-wordpress me-2"></i>
+                            طراحی سایت با وردپرس
+                        </h4>
+                        <p class="mb-4 fw-medium text-secondary text-justify" data-aos="fade-left"
+                            data-aos-duration="1500">طراحی
+                            هرگونه وبسایت فروشگاهی، شرکتی، شخصی و... را به
+                            صورت حرفه ای
+                            می توانید به ما بسپارید و از خدمات مشاوره رایگان ما
+                            استفاده کنید تا مناسب ترین وبسایت را برای کسب و کار خود داشته باشید.</p>
+                        <h4 class="fs-1 fw-bold" data-aos="fade-left" data-aos-duration="1500">
+                            <i class="fa-solid fa-eye me-2"></i>
+                            پشتیبانی سایت
+                        </h4>
+                        <p class="mb-4 fw-medium text-secondary text-justify" data-aos="fade-left"
+                            data-aos-duration="1500">وقت و
+                            تخصص نگهداری وبسایت و پاسخگویی مشتریان خود را
+                            ندارید؟ ما می
+                            توانیم فروشگاه شما را بروز و امن نگهداری کنیم و
+                            پاسخگوی مشتریان شما باشیم.</p>
+                        <h4 class="fs-1 fw-bold" data-aos="fade-left" data-aos-duration="1500">
+                            <i class="fa-solid fa-photo-film me-2"></i>
+                            طراحی بنر سایت
+                        </h4>
+                        <p class="mb-4 fw-medium text-secondary text-justify" data-aos="fade-left"
+                            data-aos-duration="1500">برای
+                            اینکه محتوای وبسایت خود را جذاب و بروز نگهدارید
+                            تا کاربران و
+                            مشتری های بیشتری جذب کنید نیاز دارید از لحاظ گرافیکی
+                            ظاهر مناسبی داشته باشید و با توجه به مناسبت ها تغییر در وبسایت ایجاد کنید نیاز به گرافیست
+                            خلاق دارید</p>
+                        <!-- <h4 class="fs-1 fw-bold" data-aos="fade-left" data-aos-duration="1500">
+                            <i class="fa-brands fa-square-instagram me-2"></i>
+                            طراحی و تولید محتوای اینستاگرام
+                        </h4> -->
+                        <!-- <p class="mb-4 fw-medium text-secondary text-justify" data-aos="fade-left"
+                            data-aos-duration="1500">پیج
+                            اینستاگرام می تواند مکمل وبسایت و بستری برای رشد
+                            سریع تر کسب و
+                            کار شما باشد که طراحی و تولید محتوای حرفه ای پیج خود
+                            را به تیم ما بسپارید</p> -->
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid img-animated" src="assets/img/validation/validation.png" alt="" />
+                    </div>
+                </div>
+            </div><!-- end of .container-->
+
+        </section>
+        <!--? <section - services> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - Standard> begin ============================-->
+        <section class="pt-5">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="img-fluid img-animated" src="assets/img/manager/manager.png" alt="" />
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="section-title">
+                            <h2 class="fs-7 fw-bold mb-2 text-center"> وبسایت استاندارد چه ویژگی هایی باید داشته باشد؟
+                            </h2>
+                        </div>
+                        <p class="mb-4 fw-medium text-secondary text-justify">
+                            وبسایت شما نماد و ویترین کسب و کار شما در دنیای دیجیتال است، ما از ابتدا به صورت حرفه ای
+                            وبسایت شما را
+                            طراحی کرده و با
+                            توجه به قوانین سئو و گوگل بهینه سازی می‌کنیم و به شما کمک خواهیم کرد تا سایتی مطابق
+                            استانداردهای
+                            بین‌المللی داشته باشید،
+                            کافی است نیازهای کسب و کار خود را برای شما شرح دهید تا ما بر اساس آن بهترین و مناسب ترین
+                            خدمات طراحی سایت
+                            مشهد را به شما
+                            ارائه کنیم.
+                        </p>
+
+                        <div class="row">
+                            <div class="col-6 d-flex align-items-center mb-3" data-aos="fade-left"
+                                data-aos-duration="1500">
+                                <img class="me-2" src="assets/img/manager/tick.png" width="35" alt="tick" />
+                                <p class="fw-medium mb-0 text-secondary">مشاوره تلفنی و حضوری</p>
+                            </div>
+                            <div class="col-6 d-flex align-items-center mb-3" data-aos="fade-left"
+                                data-aos-duration="1500">
+                                <img class="me-2" src="assets/img/manager/tick.png" width="35" alt="tick" />
+                                <p class="fw-medium mb-0 text-secondary">طراحی گرافیک اختصاصی</p>
+                            </div>
+                            <div class="col-6 d-flex align-items-center mb-3" data-aos="fade-left"
+                                data-aos-duration="1500">
+                                <img class="me-2" src="assets/img/manager/tick.png" width="35" alt="tick" />
+                                <p class="fw-medium mb-0 text-secondary">طراحی کاربر محور</p>
+                            </div>
+                            <div class="col-6 d-flex align-items-center mb-3" data-aos="fade-left"
+                                data-aos-duration="1500">
+                                <img class="me-2" src="assets/img/manager/tick.png" width="35" alt="tick" />
+                                <p class="fw-medium mb-0 text-secondary">طراحی ریسپانسیو (واکنش گرا)</p>
+                            </div>
+                            <div class="col-6 d-flex align-items-center mb-3" data-aos="fade-left"
+                                data-aos-duration="1500">
+                                <img class="me-2" src="assets/img/manager/tick.png" width="35" alt="tick" />
+                                <p class="fw-medium mb-0 text-secondary">امنیت بالا</p>
+                            </div>
+                            <div class="col-6 d-flex align-items-center mb-3" data-aos="fade-left"
+                                data-aos-duration="1500">
+                                <img class="me-2" src="assets/img/manager/tick.png" width="35" alt="tick" />
+                                <p class="fw-medium mb-0 text-secondary">طراحی UI/UX اصولی</p>
+                            </div>
+                            <div class="col-6 d-flex align-items-center mb-3" data-aos="fade-left"
+                                data-aos-duration="1500">
+                                <img class="me-2" src="assets/img/manager/tick.png" width="35" alt="tick" />
+                                <p class="fw-medium mb-0 text-secondary">افزایش سرعت سایت</p>
+                            </div>
+                            <div class="col-6 d-flex align-items-center mb-3" data-aos="fade-left"
+                                data-aos-duration="1500">
+                                <img class="me-2" src="assets/img/manager/tick.png" width="35" alt="tick" />
+                                <p class="fw-medium mb-0 text-secondary"> 3 ماه پشتیبانی رایگان</p>
+                            </div>
+                            <div class="col-6 d-flex align-items-center mb-3" data-aos="fade-left"
+                                data-aos-duration="1500">
+                                <img class="me-2" src="assets/img/manager/tick.png" width="35" alt="tick" />
+                                <p class="fw-medium mb-0 text-secondary">آموزش کار با پنل مدیریت فارسی</p>
+                            </div>
+                            <div class="col-6 d-flex align-items-center mb-3" data-aos="fade-left"
+                                data-aos-duration="1500">
+                                <img class="me-2" src="assets/img/manager/tick.png" width="35" alt="tick" />
+                                <p class="fw-medium mb-0 text-secondary">بهینه سازی اولیه سایت برای گوگل</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end of .container-->
+
+        </section>
+        <!--? <section - Standard> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - Web design> begin ============================-->
+        <div class="container py-5 steps-of-web-design">
+
+            <div class="row text-center text-white">
+                <div class="section-title col-lg-8 mx-auto">
+                    <h2 class="display-4">مراحل طراحی سایت</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-7  mx-auto">
+
+                    <!-- Timeline -->
+                    <ul class="timeline">
+                        <li class="timeline-item bg-white rounded-3 ml-3 p-4 border" data-aos="zoom-in"
+                            data-aos-duration="1500">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0">1) مشاوره و آنالیز </h2>
+                            <p class="text-small mt-2 font-weight-light text-justify">
+                                در مرحله اول کارشناسان ما طی یک مشاوره رایگان نیاز های شما را می سنجند و آنالیز می‌کنند،
+                                سپس بر اساس آن
+                                زمان و هزینه طراحی سایت شما مشخص می‌شود.
+                            </p>
+                        </li>
+                        <li class="timeline-item bg-white rounded-3 ml-3 p-4 border" data-aos="zoom-in"
+                            data-aos-duration="1500">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0">2) طراحی وبسایت</h2>
+                            <p class="text-small mt-2 font-weight-light text-justify">
+                                در این مرحله وبسایت شما بر اساس تجزیه و تحلیل انجام شده طراحی می‌شود و مورد تایید شما
+                                قرار میگیرد تا
+                                زمانی که طرح تایید نشود وارد مرحله بعد نخواهیم شد
+                            </p>
+                        </li>
+                        <li class="timeline-item bg-white rounded-3 ml-3 p-4 border" data-aos="zoom-in"
+                            data-aos-duration="1500">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0">3) پیکربندی نهایی</h2>
+                            <p class="text-small mt-2 font-weight-light text-justify">
+                                بعد از فرایند طراحی و تایید شما سایت بهینه سازی شده و پیکربندی نهایی روی آن انجام می‌شود
+                                تا آماده انتشار
+                                و شروع فعالیت شود و در موتور جست و جو گوگل ثبت میشود.
+                            </p>
+                        </li>
+                        <li class="timeline-item bg-white rounded-3 ml-3 p-4 border" data-aos="zoom-in"
+                            data-aos-duration="1500">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0">4) انتشار وبسایت</h2>
+                            <p class="text-small mt-2 font-weight-light text-justify">
+                                بعد از فرایند پیکربندی به شما آموزش کار با وبسایت به شکل بهینه داده می‌شود تا با تمامی
+                                قسمت های پنل
+                                کاربری آشنا شوید و شما فعالیت تان را روی وبسایت شروع می‌کنید.
+                            </p>
+                        </li>
+                        <li class="timeline-item bg-white rounded-3 ml-3 p-4 border" data-aos="zoom-in"
+                            data-aos-duration="1500">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0">5) شروع رشد </h2>
+                            <p class="text-small mt-2 font-weight-light text-justify">
+                                با فعالیت روی وبسایت و انتشار محتوا می‌توانید رشد کسب و کارتان را رقم بزنید روز های خوبی
+                                پیش روی شماست
+                                به شرط اینکه پیوسته و اصولی حرکت کنید...
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <!--? <section - Web design> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - Lorem ipsum> begin ============================-->
+        <section class="pt-5">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="section-title">
+                            <h2 class="mb-2 fs-8 fw-bold text-center">خلق ارزش در دنیای دیجیتال</h2>
+                        </div>
+                        <h4 class="fw-bold fs-1">تکنولوژی روز</h4>
+                        <p class="mb-4 fw-medium text-secondary">
+                            ما همیشه تلاش می کنیم تا از به روزترین تکنولوژی های فضای مجازی برای دیجیتال مارکتینگ استفاده
+                            کنیم. شما می
+                            توانید پیشرفته ترین تکنولوژی ها را از ما بخواهید.
+                        </p>
+                        <h4 class="fw-bold fs-1">مشاوره و برسی تخصصی</h4>
+                        <p class="mb-4 fw-medium text-secondary">
+                            قبل از شروع کار جلسه ای به صورت حضوری یا آنلاین با شما گذاشته میشود و تمام ابعاد پروژه با
+                            شما برسی میشود
+                            تا به تمامی نیاز های شما رسیدگی شود و خروجی کار مناسب کسب و کار شما باشد.
+                        </p>
+                        <h4 class="fw-bold fs-1">مناسب ترین قیمت ها</h4>
+                        <p class="mb-4 fw-medium text-secondary">
+                            هیچ گاه مناسب ترین قیمت به معنی ارزان ترین نخواهد بود، در ریبازوب مناسب ترین قیمت به این
+                            معنی است که
+                            بیشترین بهره‌وری با کمترین قیمت اجرا خواهد شد.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid img-animated" src="assets/img/marketer/marketer.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <!-- end of .container -->
+
+        </section>
+        <!--? <section - Lorem ipsum> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - The importance of the website> begin ============================-->
+        <div class="container" id="importance">
+
+            <div class="bg-400 rounded-3 shadow-primary read-more" data-aos="fade-up" data-aos-duration="1500">
+                <!-- <h2 class="fs-7 fw-bold pt-4 p-3">چرا داشتن وبسایت مهم است؟</h2> -->
+                <h3 class="fs-4 fw-bold pt-4 p-3">چرا داشتن وبسایت مهم است؟</h3>
+                <div class="p-3 about-website">
+
+                    <p>
+                        در دنیای مدرن، وب‌سایت‌ها تنها ابزار بازاریابی نیستند؛ بلکه امروزه برابر هستند با کسب و کارهای
+                        سنتی و فیزیکی، با بیش از 3 میلیارد کاربر در سراسر جهان. برای مثال، وقتی کسی می‌خواهد درباره یک
+                        شرکت اطلاعات بیشتری به دست آورد، ابتدا در موتور جستجوی گوگل آن را جستجو می‌کند و در نهایت به یک
+                        وب‌سایت متصل می‌شود.
+
+                        همچنین، برای محصولات و سایر خدمات از کتاب‌ها گرفته تا قطعات خودرو و یا حتی دارو، این فرآیند هر
+                        روزه توسط میلیون‌ها کاربر تکرار می‌شود.
+
+                        امروزه دیگر وب‌سایت تنها یک ابزار تجملی برای کسب و کار نیست، بلکه گاهاً به عنوان یک مرکز خرید
+                        قدرتمند‌تر و شلوغ‌تر عمل می‌کند. با مشکلات زندگی پرسرعت امروز، پاساژ‌گردی‌ها جای خود را به
+                        وب‌گردی داده‌اند.
+
+                        کسب و کارها برای برقراری ارتباط با مشتریان خود دیگر به سمت آگهی‌های روزنامه نمی‌روند؛ بلکه به
+                        سوی موتورهای جستجوی اینترنتی مانند گوگل هدایت می‌شوند؛ به منظور دستیابی به راحتی، سرعت بیشتر، و
+                        جذابیت. این مقاله به معرفی اهمیت داشتن وب‌سایت در هر اندازه و برای هر نوع کسب و کار می‌پردازد.
+                        <span id="dots">...</span>
+                    </p>
+
+                    <div id="more">
+                        <h3 class="mt-4">امروزه تصمیمات خرید در موتور های جستجو آغاز می شوند</h3>
+                        <p>
+                            برای جلب مشتریان جدید، شما نیاز دارید که بدانید مشتریان آینده‌ی شما در کجا و در چه زمانی
+                            کالا یا خدمات را جستجو می‌کنند، درباره آن تحقیق می‌کنند و در نهایت خرید خود را انجام
+                            می‌دهند.
+
+                            در دنیای امروز، اینترنت و به ویژه موتورهای جستجوی گوگل، یاهو، و بینگ مکان اصلی‌ای است که
+                            بیشتر مردم برای جستجو در بازارهای مختلف به آن مراجعه می‌کنند. این موتورهای جستجو به ترتیب
+                            پرکاربرترین موتورهای جستجو هستند و تقریباً 90 درصد تعداد جستجوها را به خود اختصاص داده‌اند.
+
+                            گوگل با فاصله زیادی در صدر قرار دارد و 6 از هر 10 جستجو را در اینترنت به خود اختصاص داده
+                            است. در دورانی که 93 درصد تصمیمات تجاری در موتورهای جستجو آغاز می‌شود، اگر شما وب‌سایتی
+                            نداشته باشید، عملاً 7 درصد از بازار شناخته‌شده را در دست خواهید داشت و بخش زیادی از بازار و
+                            مشتریان جدید را از دست خواهید داده.
+                        </p>
+
+                        <h3 class="mt-4">حرفه ایی بودن</h3>
+                        <p>
+                            اگر در این دوران یک وب‌سایت خوب نداشته باشید، عملاً بخش زیادی از بازار شما به عنوان یک گزینه
+                            جدی برای خرید در نظر نخواهد گرفت. من شخصاً برای یک خرید خوب، شرکت‌ها و ارائه‌دهندگان خدماتی
+                            را که وب‌سایت ندارند نیز بررسی می‌کنم، اما نداشتن وب‌سایت ممکن است نشانه‌ای از عدم حرفه‌ای
+                            بودن در مدیریت آن کسب و کار به نظر بیاید.
+
+                            تصور کنید که برای تعطیلات به دنبال خدمات یک شرکت گردشگری هستید. در گذشته، بنرها در
+                            پیاده‌روها یا تابلوهای شرکت به عنوان معرف خدمات مورد استفاده قرار می‌گرفتند، اما امروز
+                            وب‌سایت‌ها شما را به تعداد بیشتری از مشتریان بالقوه معرفی می‌کنند.
+
+                            تبلیغات مانند تراکت‌ها جای خود را به تبلیغات در شبکه‌های اجتماعی داده‌اند. حتی اگر از
+                            تبلیغات در شبکه‌های اجتماعی استفاده کنید، داشتن یک وب‌سایت مانند داشتن یک مکان فیزیکی برای
+                            کسب‌وکار شما مشروعیت و امکان دسترسی بیشتری به شما می‌دهد.
+                        </p>
+
+                        <h3 class="mt-4">دیده شدن و در دسترس بودن</h3>
+                        <p>
+                            قبلاً اگر می‌خواستید کسب و کار خود را رونق ببخشید، نسبت به توانایی سرمایه‌گذاری خود مکانی را
+                            برای کسب و کار انتخاب می‌کردید که افراد بیشتری از آنجا گذر می‌کردند تا بیشتر و بهتر دیده
+                            شوید. یا حتی مکانی را انتخاب می‌کردید که به نظر حرفه‌ای‌تر بیایید.
+
+                            کسب و کار شما می‌توانست از یک کرانه شهر تا در قلب پایتخت، از یک زیر پله تا یک مغازه چهاردهنه
+                            و یا یک شرکت بزرگ باشد.
+
+                            هر کسب و کاری نیاز به دیده شدن و در دسترس بودن دارد. به عنوان مثال، در گذشته، سپهسالار بورس
+                            کیف و کفش بود، حافظ بورس ارز و طلا، مولوی بورس عمده‌فروشان و پرنده‌فروشان (تهران). اما امروز
+                            کسب و کار تغییر کرده است، اکنون کسی برای خرید الزامات خود به این مراکز مراجعه نمی‌کند.
+
+                            یکی از دلایل اصلی این تغییر کمبود وقت و ترافیک است، و دلیل مهم‌تر این است که امروز مشتریان
+                            می‌توانند از طریق وب‌سایت‌ها محصولات را مقایسه کرده و بهتر ارزیابی کنند. وب‌سایت‌ها که از
+                            طریق گوشی موبایل همراه در هر مکان قابل دسترسی هستند.
+
+                            بیشتر صاحبان کسب و کارهای موفق امروز، از واردکنندگان و تولیدکنندگان گرفته تا خرده‌فروشان، به
+                            این فضای اینترنت و مجازی روی آورده‌اند. این فضا هر نوع کالا و خدمتی را در اختیار می‌گذارد و
+                            خریدار و فروشنده‌های هر نوع کالا را به یکدیگر متصل می‌کند.
+
+                            امروز شما ممکن است وب‌سایت نداشته باشید، اما به مرور زمان دنیا تغییر می‌کند و با توسعه‌ی
+                            زیرساخت‌های اینترنت در کشور و ارزان‌تر شدن گوشی‌های موبایل و کامپیوتر، مردم روز به روز وقت
+                            بیشتری را در این فضا گذرانده و گاهی حتی فضای مجازی جای فضای فیزیکی را گرفته‌اند.
+
+                            سوال این است: آیا شما می‌خواهید مشتری را که خرید خود را از اینترنت آغاز می‌کند را از دست
+                            بدهید؟ آیا دوست دارید با جستجوی نام کالا و نوع خدمات شما، مشتری اول نام شما را به عنوان
+                            ارائه‌دهنده در صفحه نمایشگر خود ببیند؟ آیا می‌خواهید شما هم بخشی از این بازار و کسب و کار
+                            آینده باشید؟ مسلماً کسی به این سوالات پاسخ نه نمی‌دهد.
+
+                            همه در پی جذب مشتری بیشتری هستند. پیشنهاد می‌کنم نوع کالا و خدمات خود را در اینترنت جستجو
+                            کرده و سپس نگاهی به تعداد وب‌سایت‌ها و ارائه‌دهندگان بیاندازید. آنها رقبای امروز و فردای شما
+                            در تلاش برای جذب سهم بیشتری در بازار و حتی گاهی در مشاغل پررقابت هستند. داشتن یک وب‌سایت
+                            اولین قدم برای حضور در این بازار پررفت‌وآمد است.
+                        </p>
+
+                        <h3 class="mt-4">هزینه بازاریابی پایین</h3>
+                        <p>
+                            ساخت وب سایت یک روش ارزان برای بازاریابی و ارتباط بی واسطه با مشتری مورد نظر شماست. نسبت به
+                            نیاز و خدماتی
+                            که می خواهید
+                            در یک سایت ارائه بدهید هزینه ها می تواند متفاوت باشد. و حتی این خدمات را می توان به تدریج در
+                            وب سایت
+                            سرمایه گذاری کرد.
+                            مثلا شما گاه فقط نیاز به یک وب سایت زیبا و جذاب برای معرفی شرکت و خدمات خود دارید. وب سایتی
+                            که در موتورهای
+                            جستجو شما را
+                            اولین گزینه در جستجوی کالا و خدمات شما معرفی کند. یا یک وب سایت با توانایی سفارش و پرداخت
+                            آنلاین و با
+                            قابلیت های گزارش
+                            های حرفه ایی مالی، مدیریتی و داده ایی. در هر صورت یک وب سایت می تواند از هزینه های شما
+                            کاسته، سرعت، چابکی
+                            و معروفیت
+                            بیشتری را به کسب و کار شما بدهد. شما می توانید خود را توسط این وب سایت معرفی کنید. آدرس سایت
+                            شما مسیری هست
+                            برای شناخته
+                            شدن و ارتباط متقابل شما و مشتری هایتان. همچنین این آدرس وب سایت رابطی است برای استفاده در
+                            تبلیغات شبکه های
+                            اجتماعی که با
+                            یک کلیک شما می توانید پذیرای مشتری جدیدی باشید که در فضای وب سایت، شما و خدمات و کلاهایتان
+                            را ملاقات می
+                            کند.
+
+                            از سوی دیگر ایجاد وب سایت برای بازاریابی خود یک سرمایه گذاری است. شما یکبار این هزینه را
+                            انجام داده و
+                            سالها از آن بهره
+                            مند می شوید. در مقایسه با سایر روش های بازاریابی پایدار بوده و همیشه قابل دسترس و استفاده
+                            است.
+                        </p>
+
+                        <h3 class="mt-4">دستیابی به فرصت هایی خارج از محدوده جغرافیایی</h3>
+                        <p>
+                            شاید بزرگترین کاری که اینترنت کرده است این باشد که دنیا را کوچک تر کرده و مرزهای جغرافیایی
+                            را برداشته است.
+                            دیگر هر کالا
+                            و خدماتی، هر تولید کننده یی می تواند کالا یا خدمات خود را به خارج از محدوده خیابان و محله
+                            خود به کل کشور و
+                            بلکه به خارج
+                            کشور معرفی و صادر کند. گاهی تنها کافی است که مشتری بداند که محصول مورد نیاز او در منطقه ایی
+                            تولید شده است
+                            تا بتواند برای
+                            خریداری آن اقدام کند. برای درک این مطلب تنها سری به فروشگاه های آنلاین یا آگهی های آنلاین
+                            بزنید. از کتاب
+                            های قدیمی مدرسه
+                            گرفته تا حیوانات استوایی همه و همه مشتری خود را دارند تنها می بایست ارتباط مشتری و فراهم
+                            کننده برقرار شود.
+                            با داشتن یک
+                            وب سایت شما فارغ از این هستید چه محلی قرار دارید موتورهای جستجو شما را به مشتری متصل می کند.
+                            تنها باید در
+                            این فضا وب
+                            سایتی داشته باشید.
+                        </p>
+
+                        <h3 class="mt-4">ذخیره اطلاعات در وب</h3>
+                        <p>
+                            وب سایت شما همچنین می تواند یک مرکز داده و اطلاعات هم برای شما و هم برای مشتری شما باشد. این
+                            ذخیره داده و
+                            اطلاعات می
+                            تواند به شکل های مختلفی صورت بگیرد. مشتری شما می تواند کلیه کالا و خدمات شما را بصورت
+                            کاتالوگ دیجیتال
+                            دریافت کند بدون
+                            اینکه نیازی به چاپ آن باشد و از طرف دیگر شما می توانید به راحتی تغییرات لازم را در کاتالوگ
+                            های خود اعمال
+                            کنید بدون اینکه
+                            نیازی به هزینه های گزاف چاپی داشته باشید. و یا با ثبت نام مشتریان در سایت آنها از تغییرات و
+                            محصولات جدید
+                            به طور
+                            الکترونیکی آگاه شوند. یا اینکه شما اطلاعات بیشتری از محل جغرافیایی کسانی که به سایت شما وصل
+                            شده اند بدست
+                            آورید تا
+                            بتوانید کالا و خدمات خود را نسبت به آن اطلاعات ارائه کنید.
+                        </p>
+
+                        <h3 class="mt-4">وب سایت داشته باشیم یا شبکه های اجتماعی؟</h3>
+                        <p>
+                            شاید این سوال برای شما پیش بیاید که چرا وقتی من از شبکه‌های اجتماعی برای توسعه کسب و کارم
+                            استفاده می‌کنم، باز هم به وب‌سایت نیاز دارم؟
+
+                            این سوال خوبی است و بعلاوه، ما همیشه این سوال را مطرح می‌کنیم: وب‌سایت یا شبکه‌های اجتماعی؟
+                            گاهی اوقات ممکن است این سوال برای شما پیش بیاید که چرا باید هزینه کرد و وب‌سایت خود را طراحی
+                            و میزبانی کنید؟ چرا نتوانید فقط از شبکه‌های اجتماعی مانند تلگرام، اینستاگرام یا گاهی فیسبوک
+                            یا توئیتر برای ارتباط با مشتریانتان استفاده کنید؟
+
+                            شبکه‌های اجتماعی برای کسب و کارها فواید غیرقابل انکاری دارند. این شبکه‌ها رایگان هستند و
+                            میلیون‌ها کاربر و مشتری بالقوه می‌توانند در ارتباط با کسب و کار شما وارد شوند. علاوه بر این،
+                            شبکه‌های اجتماعی نیازی به دانش فنی ندارند.
+
+                            تقریباً هر کسی می‌تواند به راحتی یک حساب کاربری در کمتر از یک دقیقه ایجاد کرده و شروع به
+                            تولید محتوا در ارتباط با کسب و کار خود کند. شما می‌توانید در شبکه‌های اجتماعی به وسیله
+                            تصاویر، ویدئوها یا متن ارتباط برقرار کرده و تبلیغ کنید.
+
+                            علاوه بر کاربری آسان، شبکه‌های اجتماعی همچنین با موتورهای جستجوی اینترنتی مانند گوگل سازگار
+                            هستند. این سازگاری به این معناست که در اینترنت و فضای مجازی قابل دسترس هستند. به عبارت دیگر،
+                            اگر کسب و کار شما در گوگل جستجو شود، اگر در شبکه‌های اجتماعی حضور داشته باشد، گوگل لینک
+                            مرتبط با شبکه اجتماعی آن کسب و کار را نمایش می‌دهد.
+
+                            اما داشتن وب‌سایت برای یک کسب و کار با داشتن یک حساب کاربری در شبکه‌های اجتماعی متفاوت است و
+                            علاوه بر آن رایگان نیست.
+
+                            هزینه تنها تفاوت بین این دو نیست. وب‌سایت‌ها فوایدی مهم‌تری از شبکه‌های اجتماعی دارند. سوال
+                            این است که چرا علیرغم وجود شبکه‌های اجتماعی، کسب و کارها به ساخت وب‌سایت می‌پردازند؟ یا چرا
+                            بعضی از شرکت‌های بزرگ و معتبر جهانی از عضویت در شبکه‌های اجتماعی امتناع می‌کنند؟
+
+                            فایده داشتن وب‌سایت قابل مقایسه با صفحات شبکه‌های اجتماعی چیست؟ در یک کلام، هیچکس در زمین
+                            کسی دیگری یک عمارت با شکوه نمی‌سازد.
+
+                            اگر شما از شبکه‌های اجتماعی در هر سطحی استفاده می‌کنید، شما باید از قوانین صاحب آن شبکه
+                            پیروی کنید. و از سوی دیگر با محدودیت‌های آن‌ها نیز کنار بیایید. از همه مهم‌تر، با تغییر
+                            قوانین و سیاست‌های آن‌ها، کسب و کار و سرمایه‌گذاری که شما در فضای مجازی انجام داده‌اید،
+                            مستقیماً تحت تأثیر قرار می‌گیرد.
+
+                            به عنوان مثال، با تغییر الگوریتم‌های جستجو یا الگوریتم‌های نمایش محتوا برای سایر کاربران،
+                            صفحه شما در شبکه‌های اجتماعی کمتر و کمتر دیده خواهد شد.
+
+                            چه کسی می‌خواهد برای اندکی هزینه نکردن برای خرید زمین، ساختمانی را در زمین شخص دیگری بسازد
+                            که شاید روزی مجبور به ترک و رها سرمایه‌گذاری خود شود؟ وقتی شما یک وب‌سایت به نام کسب و کار
+                            خود دارید، آن وقت است که کنترل کامل بر سرمایه‌گذاری خود دارید.
+
+                            دیگر قوانین و محدودیت‌های شبکه‌های اجتماعی بر شما تأثیر نمی‌گذارند. شما می‌توانید از
+                            شبکه‌های اجتماعی نیز به عنوان یک گزینه فرعی استفاده کنید، اما نه به عنوان پایگاه اصلی. با یک
+                            وب‌سایت می‌توانید نسبت به نیازهای کسب و کار خود خلاقیت داشته باشید و امکانات و کنترلی داشته
+                            باشید که در شبکه‌های اجتماعی وجود ندارد.
+
+                            وب‌سایت شما مانند مکان فیزیکی کسب‌وکار شماست، با یک آدرس ثابت است، اما حساب کاربری شما کمی
+                            شبیه شماره تلفن شماست که اگر تغییر کند، دچار مشکل می‌شوید، اما بوسیله مکان ثابت خود همیشه
+                            قابل دسترس است.
+
+                            شاید بهتر باشد بگوییم شبکه‌های اجتماعی تنها یکی از ابزارهای بازاریابی هستند و این ابزارها با
+                            تنوع شان در حال تغییر و اغلب ناپایدار هستند. برای مثال، روزی فیسبوک توانست رقیبان پیش از خود
+                            مانند اورکا، یاهو 360 و غیره را به کنار بزند و تبدیل به پرکاربر‌ترین شبکه اجتماعی در بین
+                            دوستان شما شود.
+
+                            اما آیا امروز به مانند گذشته است؟ کاربران تنوع‌طلب دیگر در پی شبکه‌های جدید مانند تلگرام و
+                            یا اینستاگرام افتاده‌اند و این مسیر تنوع و تغییر در آینده تکرار خواهد شد و جذابیت‌های
+                            ابتدایی در نهایت کم‌رنگ می‌شوند.
+
+                            پس بهتر است به فکر یک فضای پایدار و همیشگی در فضای مجازی باشیم و شبکه‌های اجتماعی را در حد
+                            کافی در کنار سایر ابزارهای بازاریابی استفاده کنیم.
+                        </p>
+
+                        <h3 class="mt-4">نتیجه</h3>
+                        <p>
+                            در مجموع، اگر دارای کسب و کار هستید و وب‌سایت ندارید، نگاهی به آینده بیندازید و کسب و کارهای
+                            مشابه خود را در فضای اینترنت جستجو کنید.
+
+                            شاید برای دید بهتری از آینده و قدرت فضای مجازی داشته باشید، بد نباشد که در نمونه‌های خارجی
+                            نیز در اینترنت نگاهی بیاندازید. بعلاوه، نگاهی به گذشته نه چندان دور بیاندازید: روزی در
+                            ایران، خرید، فروش و پرداخت آنلاین امری بعید و غیرمعمول بود، اما امروز کاملاً عادی و ضروری
+                            است. و روزی فرا خواهد رسید که کسب و کاری که بعید می‌رسید، پای خود را به فضای مجازی باز کند و
+                            حضوری قاطع و همیشگی در یک آدرس اینترنتی داشته باشد.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="text-center">
+                    <button class="btn mt-3 mb-4 btn-warning" id="read-more-button"
+                        onclick="readMoreAndLessBtn()">مشاهده
+                        بیشتر&#128071;</button>
+                </div>
+            </div>
+
+
+        </div>
+        <!--? <section - The importance of the website> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - Pricing table> begin ============================-->
+        <!-- <section class="container">
+            <div class="section-title">
+                <h2 class="fs-9 fw-bold mb-4 text-center">پلن مورد نیاز خود را انتخاب کنید</h2>
+            </div>
+            <div class="row text-center align-items-end">
+                Pricing Table
+                <div class="col-lg-4 mb-5 mb-lg-0 col-md-6">
+                    <div class="bg-white p-5 rounded-3 shadow-hover border" data-aos="zoom-in" data-aos-duration="1500">
+                        <h2 class="h6 text-uppercase font-weight-bold mb-4">پایه</h2>
+                        <h2 class="h2 font-weight-bold">وبسایت شخصی</h2>
+                        <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                        <h3 class="h3 font-weight-bold">9,500,000<span
+                                class="text-small font-weight-normal ml-2">/تومان</span>
+                        </h3>
+                        <p class="text-secondary">قیمت ها بر اساس امکانات متغییر است</p>
+                        <a href="#" onclick="counseling()"
+                            class="btn btn-warning btn-block w-100 p-2 shadow rounded-pill">سفارش</a>
+                    </div>
+                </div> -->
+        <!-- END -->
+
+
+        <!-- Pricing Table-->
+        <!-- <div class="col-lg-4 mb-5 col-md-6">
+                    <div class="bg-white p-5 rounded-3 shadow" data-aos="zoom-in" data-aos-duration="1500">
+                        <h2 class="h6 text-uppercase font-weight-bold mb-4">پیشرفته</h2>
+                        <h2 class="h2 font-weight-bold">وبسایت فروشگاهی</h2>
+                        <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                        <h3 class="h3 font-weight-bold">20,000,000<span
+                                class="text-small font-weight-normal ml-2">/تومان</span>
+                        </h3>
+                        <p class="text-secondary">قیمت ها بر اساس امکانات متغییر است</p>
+                        <h3 class="h3 font-weight-bold">هزینه به امکانات سایت بستگی دارد</h3>
+                        <a href="#" onclick="counseling()"
+                            class="btn btn-warning btn-block w-100 p-2 shadow rounded-pill">سفارش</a>
+                    </div>
+
+                </div> -->
+
+
+        <!-- Pricing Table-->
+        <!-- <div class="col-lg-4 mb-lg-0 col-md-6">
+                    <div class="bg-white p-5 rounded-3 shadow-hover border" data-aos="zoom-in" data-aos-duration="1500">
+                        <h2 class="h6 text-uppercase font-weight-bold mb-4">حرفه ای</h2>
+                        <h2 class="h2 font-weight-bold">وبسایت شرکتی</h2>
+                        <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                        <h3 class="h3 font-weight-bold">15,000,000<span
+                                class="text-small font-weight-normal ml-2">/تومان</span>
+                        </h3>
+                        <p class="text-secondary">قیمت ها بر اساس امکانات متغییر است</p>
+                        <a href="#" onclick="counseling()"
+                            class="btn btn-warning btn-block w-100 p-2 shadow rounded-pill">سفارش</a>
+                    </div>
+                </div> -->
+        <!-- END -->
+
+        <!-- </section>
+        END -->
+        <!--? <section - Pricing table> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - Clock> begin ============================-->
+        <section class="container">
+            <div class="time d-flex flex-column p-3 rounded-3 shadow">
+                <h2 class="fs-4 fs-lg-5 fw-bold mb-4 text-center text-white">با داشتن وبسایت و توسعه کسب و کار خود در
+                    فضای
+                    دیجیتال ثانیه ها اهمیت
+                    پیدا میکنند</h2>
+                <p class="showclock fs-4 text-center text-white fw-bold"></p>
+            </div>
+        </section>
+        <!--? <section - Clock> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - Counseling> begin ============================-->
+        <section class="py-8" id="counselingForm">
+            <div class="bg-holder z-index--1 bottom-0 d-lg-block background-position-top"
+                style="background-image:url(assets/img/superhero/oval.png);opacity:0.5; background-position: top !important ;">
+            </div>
+            <!-- bg-holder -->
+
+            <div class="container" id="counseling">
+                <div class="row justify-content-center m-1">
+                    <div class="col-lg-6 text-center bg-white p-4 rounded-3 shadow">
+                        <div class="section-title">
+                            <h2 class="fw-bold mb-4 fs-7">ثبت درخواست مشاوره رایگان</h2>
+                        </div>
+                        <p>ما در کنار شما هستیم تا با مشاوره رایگان بهترین و مناسب ترین وبسایت برای کسب و کار خود را
+                            انتخاب کنید
+                        </p>
+
+                        <form class="contact-form__input" id="form">
+                            <textarea class="form-control mb-3" name="message" id="whatsapp-input" cols="15" rows="7"
+                                placeholder="پیام خود را وارد کنید" required></textarea>
+                            <select class="form-select mb-3" id="option" name="selected" required>
+                                <option>انتخاب نوع خدمت</option>
+                                <option value="طراحی سایت وردپرسی">طراحی سایت وردپرسی</option>
+                                <option value="پشتیبانی سایت">پشتیبانی سایت</option>
+                                <option value="طراحی بنر سایت">طراحی بنر سایت</option>
+                            </select>
+                            <button class="btn bg-warning btn-md text-white" id="submit" value="Send" type="submit">
+                                ارسال پیام در واتساپ
+                                <i class="fa-solid fa-paper-plane ms-2"></i>
+                            </button>
+                        </form>
+
+                    </div>
+                </div>
+            </div><!-- end of .container-->
+
+        </section>
+        <!--? <section - Counseling> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - Team> begin ============================-->
+        <!-- <div class="container py-8" id="ourTeam">
+
+            <div class="row">
+                <div class="section-title">
+                    <h2 class="fw-bold mb-4 fs-7 text-center">اعضای تیم</h2>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="row section-success text-center ourTeam-box shadow p-2">
+                        <div class="col-md-12 ourTeam-photo">
+                            <img src="./assets/img/team/hamidreza.png">
+                        </div>
+                        <div class="col-md-12 pb-3 ourTeam-text">
+                            <h4>حمیدرضا</h4>
+                            <h6 class="text-700 pt-2 pb-2">Graphic Designer / Video Editor</h6>
+                        </div>
+                        <div class="col-md-12 ourTeam-icon p-2">
+                            <a class="p-2 text-white" href="">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
+                            <a class="p-2 text-white" href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class="p-2 text-white" href="">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="row section-info text-center ourTeam-box shadow p-2">
+                        <div class="col-md-12 ourTeam-photo">
+                            <img src="./assets/img/team/shantia.jpg">
+                        </div>
+                        <div class="col-md-12 pb-3 ourTeam-text">
+                            <h4>شَنتیا</h4>
+                            <h6 class="text-700 pt-2 pb-2">Backend Developer</h6>
+                        </div>
+                        <div class="col-md-12 ourTeam-icon p-2">
+                            <a class="p-2 text-white" href="">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
+                            <a class="p-2 text-white" href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class="p-2 text-white" href="">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="row section-danger text-center ourTeam-box shadow p-2">
+                        <div class="col-md-12 ourTeam-photo">
+                            <img src="./assets/img/team/reza.jpg">
+                        </div>
+                        <div class="col-md-12 pb-3 ourTeam-text">
+                            <h4>رِضا</h4>
+                            <h6 class="text-700 pt-2 pb-2">Frontend Developer / Web Designer</h6>
+                        </div>
+                        <div class="col-md-12 ourTeam-icon p-2">
+                            <a class="p-2 text-white" href="">
+                                <i class="fa-brands fa-telegram"></i>
+                            </a>
+                            <a class="p-2 text-white" href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class="p-2 text-white" href="">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> -->
+        <!--? <section - Team> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - FAQ> begin ============================-->
+        <section class="container">
+            <div class="section-title">
+                <h2 class="fw-bold mb-4 fs-7 text-center">سوالات متداول</h2>
+            </div>
+            <div class="accordion" id="accordionExample" data-aos="fade-up" data-aos-duration="1500">
+                <div class="accordion-item border mb-3 rounded-3">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            سفارش طراحی سایت با امکانات اختصاصی
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            اگر نیاز به امکانات مخصوص و مختلفی
+                            هستید، بهترین کار
+                            این است تا با ما در تماس باشید تا درخواست شما را دقیق تر برسی کرده و به بهترین صورت شما را
+                            راهنمایی کنیم.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item border mb-3 rounded-3">
+                    <h2 class="accordion-header" id="headingtwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsetwo" aria-expanded="false" aria-controls="collapsetwo">
+                            مدت زمان انجام طراحی سایت چقدر است؟
+                        </button>
+                    </h2>
+                    <div id="collapsetwo" class="accordion-collapse collapse" aria-labelledby="headingtwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            بسته به نوع سایت درخواستی شما، اینکه فروشگاهی باشد یا شرکتی و یا سایر سایت ها و امکانات مورد
+                            نیاز مدت زمان
+                            انجام کار متفاوت می باشد، اما به طور کلی و عمومی بین 2 الی 4 هفته زمان خواهد برد.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+        <!--? <section - FAQ> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - Footer> begin ============================-->
+        <footer class="pb-2 pb-lg-5 bg-400">
+
+            <div class="container" id="contact-us">
+
+                <div class="row border-top border-top-secondary pt-5">
+                    <div class="col-lg-2 col-md-6 mb-4 mb-md-6 mb-lg-0 mb-sm-2 order-1 order-md-1 order-lg-1"><img
+                            class="mb-4" src="./assets/img/logo.png" width="100" alt="reza rastegar logo" /></div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 order-1 order-md-3 order-lg-2">
+                        <h5 class="fs-2 mb-lg-4">دسترسی سریع</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-1"><a class="link-900 text-secondary text-decoration-none"
+                                    href="https://ribazweb.ir">صفحه اصلی</a></li>
+                            <li class="mb-1"><a class="link-900 text-secondary text-decoration-none" href=""
+                                    onclick="services()">خدمات ما</a></li>
+                            <li class="mb-1"><a class="link-900 text-secondary text-decoration-none" href="#!">نمونه
+                                    کارها</a></li>
+                            <li class="mb-1"><a class="link-900 text-secondary text-decoration-none" href="#!">اعضای
+                                    تیم</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 order-2 order-md-4 order-lg-3">
+                        <h5 class="fs-2 mb-lg-4">تماس با ما</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-1">
+                                <a class="link-900 text-secondary text-decoration-none" href="tel:09205664202">تلفن:
+                                    <br>
+                                    09205664202
+                                </a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="link-900 text-secondary text-decoration-none" href="">
+                                    آدرس: <br> ایران، خراسان رضوی،
+                                    مشهد</a>
+                            </li>
+                            <li class="mb-1">
+                                <a class="link-900 text-secondary text-decoration-none"
+                                    href="maileto:info@ribazweb.ir">ایمیل:
+                                    info@ribazweb.ir</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-4 mb-lg-0 order-4 order-md-4 order-lg-3">
+                        <h5 class="fs-2 mb-lg-4">نماد اعتماد الکترونیکی</h5>
+                        <a referrerpolicy='origin' target='_blank'
+                            href='https://trustseal.enamad.ir/?id=340531&Code=mnteh535MrRhSXMAIPAE'><img
+                                referrerpolicy='origin'
+                                src='https://trustseal.enamad.ir/logo.aspx?id=340531&Code=mnteh535MrRhSXMAIPAE' alt=''
+                                style='cursor:pointer' Code='mnteh535MrRhSXMAIPAE'></a>
+                        <!-- <ul class="list-unstyled d-flex justify-content-between mb-0">
+                            <li class="mb-1 ps-lg-1">
+                                <a class="link-900 text-secondary text-decoration-none" href="#!" target="_blank">
+                                    <img src="./assets/img/social-logo/WhatsApp.png" alt="WhatsApp icon">
+                                </a>
+                            </li>
+                            <li class="mb-1 ps-lg-1">
+                                <a class="link-900 text-secondary text-decoration-none" href="#!" target="_blank">
+                                    <img src="./assets/img/social-logo/Telegram.png" alt="Telegram icon">
+                                </a>
+                            </li>
+                            </li>
+                        </ul> -->
+                    </div>
+
+                </div>
+            </div><!-- end of .container-->
+
+        </footer>
+        <!--? <section - Footer> close ============================-->
+        <!-- ============================================-->
+
+
+
+
+        <!-- ============================================-->
+        <!--? <section - Copyright> begin ============================-->
+        <footer class="text-center py-0  bg-500">
+
+            <div class="container">
+                <div class="container border-top py-3">
+                    <p class="mb-0">تمامی حقوق برای ریباز وب محفوظ است 2022 - 2024&copy;</p>
+                </div>
+            </div>
+
+        </footer>
+        <!--? <section - Copyright> close ============================-->
+        <!-- ============================================-->
+
+
+    </main>
+    <!-- ===============================================-->
+    <!--? End of Main Content -->
+    <!-- ===============================================-->
+
+
+
+
+    <!-- ===============================================-->
+    <!--! JavaScripts -->
+    <!-- ===============================================-->
+    <!--? <Is Script> ============================-->
+    <script src="./node_modules/is/is.min.js"></script>
+
+    <!--? <Fontawesome Script> ============================-->
+    <script src="./node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+
+    <!--? <Bootstrap Script> ============================-->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--? <Aos Script> ============================-->
+    <script src="./node_modules/aos/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!--? <sweet alert Script> ============================-->
+    <script src="./node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+
+    <!--? <Custom Script> ============================-->
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "webdesign",
+  "version": "2.2.0",
+  "description": "web design in mashhad",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "طراحی سایت مشهد",
+    "طراحی سایت با وردپرس در مشهد",
+    "طراحی سایت فروشگاهی مشهد",
+    "طراحی سایت شرکتی مشهد"
+  ],
+  "author": "reza rastegar",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.0",
+    "is-npm": "^6.0.0",
+    "sweetalert2": "^11.4.33"
+  }
+}
